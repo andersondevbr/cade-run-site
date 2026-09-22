@@ -2,6 +2,8 @@
 
 Site da CADÊ RUN?, grupo de corrida de rua que virou marca de roupa. Mostra a coleção 2026, os cinco fundadores e o manifesto, e as vendas são feitas pelo próprio site: o cliente monta o carrinho e o pedido chega pronto no WhatsApp da loja.
 
+Site: https://andersondevbr.github.io/cade-run-site/
+
 ![Página inicial](.github/screenshots/desktop-hero.png)
 
 ## Funcionalidades
