@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CADÊ RUN? — STREET PERFORMANCE</title>
+    <meta name="description" content="CADÊ RUN? nasceu da rua. Camisas e regatas de performance para quem vive a corrida como cultura. Conheça a coleção 2026.">
+    <meta name="theme-color" content="#030303">
+
+    <!-- Após publicar, troque por URL absoluta: https://SEU-DOMINIO/assets/og-image.jpg
+         (algumas redes só exibem a prévia com o endereço completo da imagem).
+         Quando o domínio estiver definido, adicione também:
+         <link rel="canonical" href="https://SEU-DOMINIO/">
+         <meta property="og:url" content="https://SEU-DOMINIO/"> -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="CADÊ RUN?">
+    <meta property="og:title" content="CADÊ RUN? — Street Performance">
+    <meta property="og:description" content="Não é só corrida. É identidade. Conheça a coleção 2026.">
+    <meta property="og:image" content="assets/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="CADÊ RUN? — Street Performance">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+    <div class="progress-bar" aria-hidden="true"></div>
+
+    <div aria-hidden="true">
+        <div class="noise"></div>
+        <div class="bg-gradient"></div>
+        <div class="bg-gradient-2"></div>
+        <img src="assets/logo-watermark.webp" class="logo-watermark" alt="" width="416" height="600">
+    </div>
+
+    <header class="header">
+        <nav class="nav" aria-label="Navegação principal">
+            <a href="#inicio" class="logo-wrap" aria-label="CADÊ RUN? — voltar ao início">
+                <img src="assets/logo-nav.png" class="logo" alt="" width="29" height="42">
+                <span class="logo-text">CADÊ RUN?</span>
+            </a>
+            <div class="links">
+                <div class="nav-menu" id="navMenu">
+                    <a href="#inicio">Início</a>
+                    <a href="#colecao">Coleção</a>
+                    <a href="#fundadores">Fundadores</a>
+                    <a href="#manifesto">Manifesto</a>
+                </div>
+                <button type="button" class="cart-icon-btn" id="openCartNav" aria-label="Abrir carrinho">
+                    Carrinho <span class="cart-count-badge" id="navCartCount">0</span>
+                </button>
+                <button type="button" class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false" aria-controls="navMenu">
+                    <span class="menu-toggle-bar" aria-hidden="true"></span>
+                    <span class="menu-toggle-bar" aria-hidden="true"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <p class="tag">STREET PERFORMANCE • RUN CULTURE</p>
+            <h1>NÃO É SÓ <span>CORRIDA.</span><br>É IDENTIDADE.</h1>
+            <p class="hero-text">
+                CADÊ RUN? nasceu da rua. Performance brutal, estética agressiva
+                e cultura urbana fundidas em peças feitas pra quem corre acima do normal.
+            </p>
+            <div class="hero-buttons">
+                <a href="#colecao" class="btn btn-white">Ver Coleção</a>
+                <a href="https://chat.whatsapp.com/F6kDSLSe6wOLrMpweNxny4" class="btn btn-dark" target="_blank" rel="noopener noreferrer">Entrar no Grupo</a>
+            </div>
+        </section>
+
+        <section class="section" id="colecao">
+            <div class="section-top">
+                <h2 class="section-title">COLEÇÃO 2026</h2>
+                <p class="section-sub">Performance. Rua. Estética. O uniforme oficial de quem vive o asfalto todos os dias. Pré-venda por tempo limitado.</p>
+            </div>
+
+            <div class="grid">
+                <article class="card">
+                    <div class="gallery">
+                        <img src="assets/produtos/camisa-branca-frente.webp" class="active" alt="Camisa CADÊ RUN branca, vista de frente" width="1200" height="1055" loading="lazy" decoding="async">
+                        <img src="assets/produtos/camisa-branca-costas.webp" alt="Camisa CADÊ RUN branca, vista de costas" width="1200" height="1055" loading="lazy" decoding="async">
+                        <div class="switch">
+                            <button type="button" class="arrow prev" aria-label="Foto anterior">‹</button>
+                            <button type="button" class="arrow next" aria-label="Próxima foto">›</button>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <p class="type">CAMISA PERFORMANCE</p>
+                        <h3 class="product-name">CAMISA CADÊ RUN BRANCA</h3>
+                        <div class="bottom">
+                            <p class="price">R$ 60</p>
+                            <button type="button" class="buy" data-name="CAMISA CADÊ RUN BRANCA" data-price="60">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="gallery">
+                        <img src="assets/produtos/camisa-preta-frente.webp" class="active" alt="Camisa CADÊ RUN preta, vista de frente" width="1200" height="1031" loading="lazy" decoding="async">
+                        <img src="assets/produtos/camisa-preta-costas.webp" alt="Camisa CADÊ RUN preta, vista de costas" width="1200" height="1027" loading="lazy" decoding="async">
+                        <div class="switch">
+                            <button type="button" class="arrow prev" aria-label="Foto anterior">‹</button>
+                            <button type="button" class="arrow next" aria-label="Próxima foto">›</button>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <p class="type">CAMISA PERFORMANCE</p>
+                        <h3 class="product-name">CAMISA CADÊ RUN PRETA</h3>
+                        <div class="bottom">
+                            <p class="price">R$ 60</p>
+                            <button type="button" class="buy" data-name="CAMISA CADÊ RUN PRETA" data-price="60">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="gallery">
+                        <img src="assets/produtos/regata-frente.webp" class="active" alt="Regata Hybrid Athlete, vista de frente" width="1200" height="956" loading="lazy" decoding="async">
+                        <img src="assets/produtos/regata-costas.webp" alt="Regata Hybrid Athlete, vista de costas" width="1200" height="1064" loading="lazy" decoding="async">
+                        <div class="switch">
+                            <button type="button" class="arrow prev" aria-label="Foto anterior">‹</button>
+                            <button type="button" class="arrow next" aria-label="Próxima foto">›</button>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <p class="type">HYBRID SERIES</p>
+                        <h3 class="product-name">REGATA HYBRID ATHLETE</h3>
+                        <div class="bottom">
+                            <p class="price">R$ 55</p>
+                            <button type="button" class="buy" data-name="REGATA HYBRID ATHLETE" data-price="55" data-single-fit>Comprar</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="fundadores">
+            <div class="section-top">
+                <h2 class="section-title">OS<br>FUNDADORES</h2>
+                <p class="section-sub">Os cinco fundadores da CADÊ RUN?. Movimento criado na rua, para quem vive corrida, estética e cultura urbana.</p>
+            </div>
+
+            <div class="team-grid">
+                <a href="https://www.instagram.com/anderson.fsfs/" target="_blank" rel="noopener noreferrer" class="team-card">
+                    <div class="team-overlay"></div>
+                    <div class="team-content">
+                        <span class="team-role">Fundador e Desenvolvedor do site</span>
+                        <h3>Anderson</h3>
+                        <div class="team-line"></div>
+                        <span class="team-instagram">@anderson.fsfs</span>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/_emive/" target="_blank" rel="noopener noreferrer" class="team-card">
+                    <div class="team-overlay"></div>
+                    <div class="team-content">
+                        <span class="team-role">Fundador</span>
+                        <h3>Emive</h3>
+                        <div class="team-line"></div>
+                        <span class="team-instagram">@_emive</span>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/elyson_vini7/" target="_blank" rel="noopener noreferrer" class="team-card">
+                    <div class="team-overlay"></div>
+                    <div class="team-content">
+                        <span class="team-role">Fundador</span>
+                        <h3>Elyson</h3>
+                        <div class="team-line"></div>
+                        <span class="team-instagram">@elyson_vini7</span>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/jpsiqueir_/" target="_blank" rel="noopener noreferrer" class="team-card">
+                    <div class="team-overlay"></div>
+                    <div class="team-content">
+                        <span class="team-role">Fundador</span>
+                        <h3>João Pedro</h3>
+                        <div class="team-line"></div>
+                        <span class="team-instagram">@jpsiqueir_</span>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/ramon_c4valcante/" target="_blank" rel="noopener noreferrer" class="team-card">
+                    <div class="team-overlay"></div>
+                    <div class="team-content">
+                        <span class="team-role">Fundador</span>
+                        <h3>Ramon</h3>
+                        <div class="team-line"></div>
+                        <span class="team-instagram">@ramon_c4valcante</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="section" id="manifesto">
+            <div class="about">
+                <h2>FEITO PRA QUEM<br>CORRE FORA<br>DO PADRÃO.</h2>
+                <div>
+                    <p>CADÊ RUN? mistura corrida urbana, streetwear e identidade visual pesada em uma estética criada pra destacar quem vive o esporte como cultura.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <strong>2026</strong>
+                            <span>Nova Era</span>
+                        </div>
+                        <div class="stat">
+                            <strong>3</strong>
+                            <span>Peças Oficiais</span>
+                        </div>
+                        <div class="stat">
+                            <strong>100%</strong>
+                            <span>Rua</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <p class="footer-brand">CADÊ RUN?</p>
+            <p class="footer-slogan">Foco no asfalto.</p>
+        </div>
+        <a href="https://www.instagram.com/caderunclub/" class="footer-btn" target="_blank" rel="noopener noreferrer">@caderunclub</a>
+    </footer>
+
+    <div class="cart-bar" id="cartBar">
+        <div class="cart-bar-info">
+            <span class="cart-bar-title">Seu Carrinho (<span id="cartBarCount">0</span>)</span>
+            <span class="cart-bar-total" id="cartBarTotal">R$ 0</span>
+        </div>
+        <button type="button" class="cart-bar-btn" id="cartBarBtn">Revisar e Fechar Pedido</button>
+    </div>
+
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalName">
+        <div class="modal-box">
+            <button type="button" class="close" id="closeModal" aria-label="Fechar">×</button>
+
+            <div id="viewProduct">
+                <h2 id="modalName">Produto</h2>
+                <p class="product-config-title">Configurar Manto</p>
+
+                <div class="group" id="fitGroup">
+                    <span class="group-title" id="fitLabel">Modelagem</span>
+                    <div class="options" role="radiogroup" aria-labelledby="fitLabel">
+                        <input type="radio" id="normal" name="fit" value="Normal" checked>
+                        <label for="normal">Normal</label>
+                        <input type="radio" id="babylook" name="fit" value="Baby Look">
+                        <label for="babylook">Baby Look</label>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <span class="group-title" id="sizeLabel">Tamanho</span>
+                    <div class="options" role="radiogroup" aria-labelledby="sizeLabel">
+                        <input type="radio" id="pp" name="size" value="PP">
+                        <label for="pp">PP</label>
+                        <input type="radio" id="p" name="size" value="P">
+                        <label for="p">P</label>
+                        <input type="radio" id="m" name="size" value="M" checked>
+                        <label for="m">M</label>
+                        <input type="radio" id="g" name="size" value="G">
+                        <label for="g">G</label>
+                        <input type="radio" id="gg" name="size" value="GG">
+                        <label for="gg">GG</label>
+                        <input type="radio" id="exgg" name="size" value="EXGG">
+                        <label for="exgg">EXGG</label>
+                    </div>
+                </div>
+
+                <button type="button" class="finish" id="addToCartBtn">Adicionar ao Carrinho</button>
+            </div>
+
+            <div id="viewCart" hidden>
+                <h2 id="cartTitle">Seu Carrinho</h2>
+
+                <ul class="cart-items-list" id="cartItems"></ul>
+
+                <div class="group">
+                    <label class="group-title" for="clientName">Seu Nome</label>
+                    <input type="text" id="clientName" class="input-name" placeholder="Digite seu nome completo" autocomplete="name" aria-describedby="nameError">
+                    <p class="form-error" id="nameError" aria-live="polite"></p>
+                </div>
+
+                <div class="group">
+                    <span class="group-title" id="payLabel">Forma de Pagamento</span>
+                    <div class="options" role="radiogroup" aria-labelledby="payLabel">
+                        <input type="radio" id="pix" name="pay" value="pix" checked>
+                        <label for="pix">PIX</label>
+                        <input type="radio" id="entrada" name="pay" value="entrada">
+                        <label for="entrada">50% Entrada</label>
+                        <input type="radio" id="cartao" name="pay" value="cartao">
+                        <label for="cartao">Cartão</label>
+                    </div>
+                </div>
+
+                <div class="payment-breakdown" id="paymentBreakdown" hidden>
+                    <div class="breakdown-row">
+                        <span class="breakdown-label">Pagamento Agora</span>
+                        <span class="breakdown-amount" id="breakdownNow">R$ 0</span>
+                    </div>
+                    <div class="breakdown-row">
+                        <span class="breakdown-label">Pagamento Depois</span>
+                        <span class="breakdown-amount" id="breakdownLater">R$ 0</span>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <div class="total-display">
+                        <span class="total-label">Total do Pedido:</span>
+                        <span class="total-price" id="cartModalTotal">R$ 0</span>
+                    </div>
+                    <button type="button" class="finish" id="finishBtn">Enviar Pedido para o WhatsApp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <template id="cartItemTemplate">
+        <li class="cart-item">
+            <div class="cart-item-details">
+                <span class="cart-item-name"></span>
+                <span class="cart-item-meta"></span>
+            </div>
+            <div class="cart-item-right">
+                <span class="cart-item-price"></span>
+                <button type="button" class="cart-item-remove">Remover</button>
+            </div>
+        </li>
+    </template>
+
+</body>
+</html>

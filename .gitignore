@@ -1,0 +1,13 @@
+# Arquivos originais (backup local, fora do repositório)
+_originais/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+node_modules/
